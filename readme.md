@@ -12,7 +12,7 @@ One a feature is complete merge it back into master by
 
 We used `scaffold_sinatra` to create a new application called `mister_user_app`
 
-For my `mister_user_app` and clone down a copy.
+Fork my `mister_user_app` and clone down a copy.
 
 ## git checkout -b adds_user
 
