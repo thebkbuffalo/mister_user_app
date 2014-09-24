@@ -4,6 +4,7 @@ Sequel.migration do
   change do
     create_table(:users) do
       primary_key :id
+      String :email, :size=>128, :null=>false
       String :name, :size=>255, :null=>false
       String :gender, :size=>10, :null=>false
       String :picture, :size=>300, :null=>false
