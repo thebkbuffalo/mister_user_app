@@ -74,8 +74,4 @@ class User < Sequel::Model
     age_difference == [0..1]
   end
 
-
-
-
-
 end # end's user
